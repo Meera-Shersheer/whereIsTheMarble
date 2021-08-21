@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style/nav.CSS">
+    <link rel="stylesheet" href="./Style/cups.CSS">
+    <link rel="stylesheet" href="./Style/login.CSS">
+    <!-- to link CSS code with HTMl -->
+
+    <title>Home</title>
+</head>
+
+<body>
+    <ul class="navigation">
+        <div class="left">
+            <li> <a href="index.html">Home</a> </li>
+            <li> <a href="./pages/scores.html"> High Score </a> </li>
+        </div>
+        <li><a href="./pages/login.html">Login</a> </li>
+    </ul>
+
+    <h1 class =page-header>Guess Under Which Cup The Marble Is ?</h1>
+    <div class="cups">
+        <img src="./the game's image/cup.jpg" id = "1" class="cups-display" alt="cup1">
+        <img src="./the game's image/cup.jpg" id = "2"class="cups-display" alt="cup2">
+        <img src="./the game's image/cup.jpg" id = "3" class="cups-display" alt="cup3">
+        <img src="./the game's image/cup.jpg" id = "4" class="cups-display" alt="cup4">
+        <img src="./the game's image/cup.jpg" id = "5" class="cups-display" alt="cup5">
+    </div>
+    <div class="page-header"> your score is <span id="scoreValue"> 0</span></div>
+    <div style="text-align: center;">
+
+        <button onclick="restartGame()"   class="Buttonstyle" >restart game</button>
+    </div>
+   
+
+
+<script src="./js/app.js"></script>
+</body >
+
+</html>

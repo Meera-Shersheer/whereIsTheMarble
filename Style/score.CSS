@@ -1,0 +1,34 @@
+.score-box{
+text-align: center;
+list-style-type: none;
+box-shadow: 2px 2px gainsboro;
+border-radius: 20px;
+width: 70%;
+margin: auto;
+margin-top: 50px;
+
+padding-block-start: 10px;
+padding-block-end: 10px;
+padding-left: 10px;
+padding-right:10px ;
+}
+.score-box .score-item{
+
+padding: 15px;
+display: flex;
+justify-content: space-between;
+border-bottom: 1px solid wheat;
+
+
+    
+}
+.header{
+background-color: tomato;
+color:white;
+border-radius: 15px;
+
+
+
+
+
+}

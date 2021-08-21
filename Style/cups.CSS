@@ -1,0 +1,38 @@
+.cups img:hover {
+
+
+border: 1px solid rgb(241, 8, 8);
+    cursor: pointer;
+    border-radius: 15px;
+    box-shadow: 0px 1px 2px rgb(15, 35, 214);
+    width: 15%;
+/* cups image style */
+
+}
+.cups{
+
+  text-align:center;
+
+}
+
+.cups img {
+
+       
+        border-radius: 20px;
+        box-shadow: 2px 2px rgb(123, 193, 233);
+    width:18%;
+
+
+}
+      
+@media (max-width:600px){
+ .cups img { display: flex;
+  border-radius: 20px;
+      flex-direction:coloum;
+      margin: 20px;
+      margin-left: 40%;
+      margin-right: 35%;
+    }
+ }  
+    
+  

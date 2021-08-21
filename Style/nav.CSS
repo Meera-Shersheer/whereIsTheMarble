@@ -1,0 +1,54 @@
+body{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.navigation{
+
+background-color: tomato;
+margin: 0 ;
+list-style-type: none;
+padding: 0;
+display: flex;
+justify-content:space-between;
+flex-direction:row;
+}
+.navigation a{
+/* select "a" that has parent with class = "navigation"*/
+text-decoration: none ;
+color: white;
+}
+
+.navigation li{
+
+    padding:10px;  
+}
+
+.navigation li:hover  a{ 
+color: tomato ;
+}
+
+.navigation li:hover{
+    
+    background-color: white;
+}
+
+.page-header{
+    text-align: center;
+    color:tomato;
+}
+
+.left{
+
+display:flex;
+
+
+}
+/* like an if statement
+ if the max width is 600 change the color of the background */
+@media (max-width:600px){
+ body{ background-color:blue;}
+}
+
+ 

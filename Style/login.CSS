@@ -1,0 +1,44 @@
+.infoBox.orangy{
+    
+    font-size:larger;
+color: tomato;
+
+
+
+}
+.infoBox{
+text-align: center;
+margin: 5%;
+
+}
+.infoBox .labelBox{
+
+    box-shadow: 2px 2px gainsboro;
+    border-radius: 5px;
+    border: 1px solid rgb(241, 8, 8);
+    padding: 7px;
+
+} 
+
+.infoBox .labelBox:hover{
+cursor:text;
+
+}
+
+
+.Buttonstyle{
+
+background-color: tomato;
+padding:10px;
+margin:17px;
+color:white;
+border-radius: 15px;
+width: 9%;
+text-align: center;
+border:1px solid  tomato;
+
+
+}
+.Buttonstyle:hover{
+    cursor: pointer;
+}
